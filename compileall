@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#compileall compiles all the files needed for CS344-program4
+
+#Name: Jake Seawell
+#Date: 8/5/19
+
+#keygen
+g++ -g -Wall -pedantic keygen.c -o keygen
+#otp_enc
+g++ -g -Wall -pedantic otp_enc.c -o otp_enc
+#otp_enc_d
+g++ -g -Wall -pedantic otp_enc_d.c -o otp_end_d
+#otp_dec
+g++ -g -Wall -pedantic otp_dec.c -o otp_dec
+#otp_dec_d
+g++ -g -Wall -pedantic otp_dec_d.c -o otp_dec_d
