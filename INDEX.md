@@ -1,10 +1,10 @@
 ## One-Time-Pad  
 
 **Description:** 
-This program simulates a one-time-pad encryption and decryption between a server and a client. The otp_enc_d server opens a socket for listening on a port, and the otp_enc client connects to the server on the port. Then, the client sends a message and a key to the server. The server will encript the message using the key, and send the encripted message back to the client. Then the process is repeated - otp_dec client sends the encripted message and the same key to the otp_enc_d server, which will decode the message using the key, and send the decoded message back to the client. The server runs in a continuos loops, and can accept up to 5 concurrent client connections.  
+This program simulates a one-time-pad encryption and decryption between a server and a client. The *otp_enc_d* server opens a socket for listening on a port, and the *otp_enc* client connects to the server on the port. Then, the client sends a message and a key to the server. The server will encript the message using the key, and send the encripted message back to the client. Then the process is repeated - *otp_dec* client sends the encripted message and the same key to the *otp_enc_d* server, which will decode the message using the key, and send the decoded message back to the client. The server runs in a continuos loops, and can accept up to 5 concurrent client connections.  
 
 **How to compile:**   
-To compile this program, download the files in this repository, and put them in the same bash directory. Give the files "compileall" & "keygen" executable permissions by running the commands: "chmod +x compileall" & "chmod +x keygen". The compileall program will compile all the other C++ files into the necessary executables. There will be some errors thrown by the compiler, but these can be ignored. The keygen program will be used later.  
+To compile this program, download the files in this repository, and put them in the same bash directory. Give the files `compileall` & `keygen` executable permissions by running the commands: `chmod +x compileall` & `chmod +x keygen`. The compileall program will compile all the other C++ files into the necessary executables. There will be some errors thrown by the compiler, but these can be ignored. The keygen program will be used later.  
 
 **How to run:**  
 1. Start the daemons (servers). This is done by running the commands: `otp_enc_d PORT# &` and `otp_dec_d PORT# &` with 2 different valid port#'s.  
