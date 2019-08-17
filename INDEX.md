@@ -11,11 +11,11 @@ To compile this program, download the files in this repository, and put them in 
 
 2. Create a message: Move into or create a file in the directory, with whatever message you want to encode. Your message needs to be made up of uppercase letters and spaces, but no lowercase letters or other characters.  
 
-3. Creake a key: This is done by running the `keygen` program: `keygen # > keyFile`. In this case, # is the size of key you want to create, and keyFile is the name of the file where you want to store the key. In order for this program to work, the key needs to be the same # of characters (or more) as the message you will be encripting.  
+3. Creake a key: This is done by running the `keygen` program: `keygen # > keyFile`. In this case, `#` is the size of key you want to create, and `keyFile` is the name of the file where you want to store the key. In order for this program to work, the key needs to be the same # of characters (or more) as the message you will be encripting.  
 
-4. Encript the message: This can be done by typing: `otp_enc messageFile keyFile PORT# > encriptedFile` where messageFile is the name of the file where your message is stored, keyFile is where your key is stored, and the PORT# needs to be the same port that you ran otp_enc_d on in step #1. Your encripted message will be stored in a new file called encriptedFile.  
+4. Encript the message: This can be done by typing: `otp_enc messageFile keyFile PORT# > encriptedFile` where `messageFile` is the name of the file where your message is stored, `keyFile` is where your key is stored, and the `PORT#` needs to be the same port that you ran *otp_enc_d* on in step #1. Your encripted message will be stored in a new file called `encriptedFile`.  
 
-5. Decode the message: Do this by typing: `otp_dec encriptedFile keyFile PORT# > decodedMessage`, where the PORT# needs to be the same as that of otp_dec_d in step #1, and decodedMessage is a new file where your decoded message will be stored.  
+5. Decode the message: Do this by typing: `otp_dec encriptedFile keyFile PORT# > decodedMessage`, where the `PORT#` needs to be the same as that of *otp_dec_d* in step #1, and `decodedMessage` is a new file where your decoded message will be stored.  
 
 **Example Run (after moving all files into bash directory):**  
 > `$ chmod +x compileall`  
