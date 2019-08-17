@@ -29,13 +29,13 @@ as that of otp_dec_d in step #1, and decodedMessage is a new file where your dec
 > `$ chmod +x keygen`  
 > `$ compileall`  
 > `$ cat messageFile`  
-> `HELLO WORLD`  
+> HELLO WORLD  
 > `$ opt_enc_d 54321 &`  
 > `$ opt_dec_d 56789 &`  
 > `$ keygen 15 > keyFile`  
 > `$ opt_enc messageFile keyFile 54321 > encriptedFile`  
 > `$ cat encriptedFile`  
-> `F JIWKSO ABROQV`  
+> F JIWKSO ABROQV  
 > `$ opt_dec encriptedFile keyFile 56789 > decodedMessage`  
 > `$ cat decodedMessage`  
-> `HELLO WORLD`  
+> HELLO WORLD  
