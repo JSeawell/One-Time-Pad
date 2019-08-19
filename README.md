@@ -3,7 +3,7 @@
 ## Description: 
 This program simulates a one-time-pad encryption and decryption between a server and a client. The *otp_enc_d* server opens a socket for listening on a port, and the *otp_enc* client connects to the server on the port. Then, the client sends a message and a key to the server. The server will encript the message using the key, and send the encripted message back to the client. Then the process is repeated - *otp_dec* client sends the encripted message and the same key to the *otp_enc_d* server, which will decode the message using the key, and send the decoded message back to the client. The server runs in a continuos loops, and can accept up to 5 concurrent client connections.  
 
-> ## What I learned:
+## What I learned:
 > 1. Network communication  
 > 2. Clients and server architectures  
 > 3. Security, encription, and permissions  
