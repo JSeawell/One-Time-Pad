@@ -35,10 +35,11 @@
 > HELLO WORLD  
 
 ## Tech and/or concepts learned/used:
-> 1. Network communication  
-> 2. Clients and server architectures  
-> 3. Security, encription, and permissions  
-> 4. Network layer model  
-> 5. HTTP/TCP/UDP/IP  
-> 6. Sockets, ports, and pipes  
-> 7. Concurrency (apparent vs. real)
+> - C++
+> - Network communication  
+> - Clients and server architectures  
+> - Security, encription, and permissions  
+> - Network layer model  
+> - HTTP/TCP/UDP/IP  
+> - Sockets, ports, and pipes  
+> - Concurrency (apparent vs. real)
